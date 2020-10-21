@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		28AC2A56253FFAD50060FE79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AC2A55253FFAD50060FE79 /* AppDelegate.swift */; };
 		28AC2A58253FFAD50060FE79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AC2A57253FFAD50060FE79 /* SceneDelegate.swift */; };
-		28AC2A5A253FFAD50060FE79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AC2A59253FFAD50060FE79 /* ViewController.swift */; };
 		28AC2A5D253FFAD50060FE79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AC2A5B253FFAD50060FE79 /* Main.storyboard */; };
 		28AC2A60253FFAD50060FE79 /* EUNMO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28AC2A5E253FFAD50060FE79 /* EUNMO.xcdatamodeld */; };
 		28AC2A62253FFADA0060FE79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AC2A61253FFADA0060FE79 /* Assets.xcassets */; };
@@ -21,7 +20,6 @@
 		28AC2A52253FFAD50060FE79 /* EUNMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EUNMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AC2A55253FFAD50060FE79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28AC2A57253FFAD50060FE79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		28AC2A59253FFAD50060FE79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28AC2A5C253FFAD50060FE79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28AC2A5F253FFAD50060FE79 /* EUNMO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EUNMO.xcdatamodel; sourceTree = "<group>"; };
 		28AC2A61253FFADA0060FE79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +42,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2857DD18254005940068F7AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2857DD19254005A70068F7AF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				28AC2A5B253FFAD50060FE79 /* Main.storyboard */,
+				28AC2A63253FFADA0060FE79 /* LaunchScreen.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2857DD1A254005BE0068F7AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2857DD1B254005D30068F7AF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2857DD1C254005E90068F7AF /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
 		28AC2A49253FFAD50060FE79 = {
 			isa = PBXGroup;
 			children = (
@@ -65,12 +100,14 @@
 		28AC2A54253FFAD50060FE79 /* EUNMO */ = {
 			isa = PBXGroup;
 			children = (
+				2857DD1C254005E90068F7AF /* Scene */,
+				2857DD1B254005D30068F7AF /* Service */,
+				2857DD1A254005BE0068F7AF /* ViewModel */,
+				2857DD19254005A70068F7AF /* ViewController */,
+				2857DD18254005940068F7AF /* Model */,
 				28AC2A55253FFAD50060FE79 /* AppDelegate.swift */,
 				28AC2A57253FFAD50060FE79 /* SceneDelegate.swift */,
-				28AC2A59253FFAD50060FE79 /* ViewController.swift */,
-				28AC2A5B253FFAD50060FE79 /* Main.storyboard */,
 				28AC2A61253FFADA0060FE79 /* Assets.xcassets */,
-				28AC2A63253FFADA0060FE79 /* LaunchScreen.storyboard */,
 				28AC2A66253FFADA0060FE79 /* Info.plist */,
 				28AC2A5E253FFAD50060FE79 /* EUNMO.xcdatamodeld */,
 			);
@@ -91,7 +128,6 @@
 				2AA80E1B7B025ADD3477555E /* Pods-EUNMO.debug.xcconfig */,
 				B0C7342095F1FFED5A02A15B /* Pods-EUNMO.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AC2A5A253FFAD50060FE79 /* ViewController.swift in Sources */,
 				28AC2A56253FFAD50060FE79 /* AppDelegate.swift in Sources */,
 				28AC2A60253FFAD50060FE79 /* EUNMO.xcdatamodeld in Sources */,
 				28AC2A58253FFAD50060FE79 /* SceneDelegate.swift in Sources */,
