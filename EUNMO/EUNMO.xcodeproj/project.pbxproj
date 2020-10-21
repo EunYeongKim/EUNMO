@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2857DD24254008A70068F7AF /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2857DD23254008A70068F7AF /* Memo.swift */; };
 		28AC2A56253FFAD50060FE79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AC2A55253FFAD50060FE79 /* AppDelegate.swift */; };
 		28AC2A58253FFAD50060FE79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AC2A57253FFAD50060FE79 /* SceneDelegate.swift */; };
 		28AC2A5D253FFAD50060FE79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AC2A5B253FFAD50060FE79 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2857DD23254008A70068F7AF /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		28AC2A52253FFAD50060FE79 /* EUNMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EUNMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AC2A55253FFAD50060FE79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28AC2A57253FFAD50060FE79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 		2857DD18254005940068F7AF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2857DD23254008A70068F7AF /* Memo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				28AC2A56253FFAD50060FE79 /* AppDelegate.swift in Sources */,
 				28AC2A60253FFAD50060FE79 /* EUNMO.xcdatamodeld in Sources */,
 				28AC2A58253FFAD50060FE79 /* SceneDelegate.swift in Sources */,
+				2857DD24254008A70068F7AF /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
