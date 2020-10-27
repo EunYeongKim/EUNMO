@@ -27,6 +27,7 @@
 		28B9D5F62546A1070083AC7F /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D5F52546A1070083AC7F /* Scene.swift */; };
 		28B9D5F92546A4A10083AC7F /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D5F82546A4A10083AC7F /* SceneCoordinatorType.swift */; };
 		28B9D5FC2546A6980083AC7F /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D5FB2546A6980083AC7F /* SceneCoordinator.swift */; };
+		28B9D6012547A1530083AC7F /* CommonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9D6002547A1530083AC7F /* CommonViewModel.swift */; };
 		77518FB136D9CF27CDFC432A /* Pods_EUNMO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71EE8348A8996B43F4D49772 /* Pods_EUNMO.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		28B9D5F52546A1070083AC7F /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		28B9D5F82546A4A10083AC7F /* SceneCoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinatorType.swift; sourceTree = "<group>"; };
 		28B9D5FB2546A6980083AC7F /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
+		28B9D6002547A1530083AC7F /* CommonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewModel.swift; sourceTree = "<group>"; };
 		2AA80E1B7B025ADD3477555E /* Pods-EUNMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EUNMO.debug.xcconfig"; path = "Target Support Files/Pods-EUNMO/Pods-EUNMO.debug.xcconfig"; sourceTree = "<group>"; };
 		71EE8348A8996B43F4D49772 /* Pods_EUNMO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EUNMO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C7342095F1FFED5A02A15B /* Pods-EUNMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EUNMO.release.xcconfig"; path = "Target Support Files/Pods-EUNMO/Pods-EUNMO.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				28B9D5E425468EDC0083AC7F /* MemoListViewModel.swift */,
 				28B9D5E725468F070083AC7F /* MemoDetailViewModel.swift */,
 				28B9D5EA25468F2F0083AC7F /* MemoComposeViewModel.swift */,
+				28B9D6002547A1530083AC7F /* CommonViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				28B9D5F92546A4A10083AC7F /* SceneCoordinatorType.swift in Sources */,
 				28B9D5E525468EDC0083AC7F /* MemoListViewModel.swift in Sources */,
 				28B9D5E825468F070083AC7F /* MemoDetailViewModel.swift in Sources */,
+				28B9D6012547A1530083AC7F /* CommonViewModel.swift in Sources */,
 				28B9D5F32546A06C0083AC7F /* TransitionModel.swift in Sources */,
 				28B9D5DC254687880083AC7F /* MemoListViewController.swift in Sources */,
 				28B9D5E225468DE80083AC7F /* MemoComposeViewController.swift in Sources */,
