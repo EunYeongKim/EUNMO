@@ -102,14 +102,38 @@
                     <view key="view" contentMode="scaleToFill" id="Mae-Hn-M1a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Igb-ZT-Dh7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="t4T-q1-UIr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Igb-ZT-Dh7" firstAttribute="trailing" secondItem="t4T-q1-UIr" secondAttribute="trailing" id="7Pd-AW-oEv"/>
+                            <constraint firstAttribute="bottom" secondItem="Igb-ZT-Dh7" secondAttribute="bottom" id="9dw-bn-ugO"/>
+                            <constraint firstItem="Igb-ZT-Dh7" firstAttribute="leading" secondItem="t4T-q1-UIr" secondAttribute="leading" id="DbI-OS-fef"/>
+                            <constraint firstItem="Igb-ZT-Dh7" firstAttribute="top" secondItem="Mae-Hn-M1a" secondAttribute="top" id="sdG-Nj-SQO"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="새 메모" id="zUm-ys-ZSV"/>
+                    <navigationItem key="navigationItem" title="새 메모" id="zUm-ys-ZSV">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="YT1-2p-ynx"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="9Ks-Ax-0xh"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cancelButton" destination="YT1-2p-ynx" id="ze4-KI-cuL"/>
+                        <outlet property="contentTextView" destination="Igb-ZT-Dh7" id="1qy-lj-4e1"/>
+                        <outlet property="saveButton" destination="9Ks-Ax-0xh" id="OpN-7j-zSF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6dx-LO-ERF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1690" y="1493"/>
+            <point key="canvasLocation" x="1689.8550724637682" y="1492.6339285714284"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qbz-p3-feC">
@@ -149,6 +173,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
